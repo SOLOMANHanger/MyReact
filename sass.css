@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Grave";
+  src: url("assets/fonts/Gravedigger-8BOZ.ttf");
+}
+@font-face {
+  font-family: "Altron";
+  src: url("assets/fonts/AltronedtrialRegular-E4pYl.otf");
+}
+html {
+  border: 3px solid blue;
+  background-color: #00a8f2;
+}
+
+b {
+  border: 2px dotted rgb(135, 236, 110);
+  background-image: linear-gradient(linear-gradient(black, rgb(7, 8, 8), rgb(238, 225, 209)));
+}
+
+body {
+  background-color: black;
+  border: 3px solid pink;
+}
+
+nav {
+  font-family: "Grave";
+  border: 2px dotted rgb(214, 125, 115);
+  font-size: 23px;
+  background-color: black;
+  padding: 10px 1px 1px 10px;
+  text-shadow: 2px 1px 1px red;
+}
+
+.actives {
+  background-image: linear-gradient(rgb(17, 1, 1), rgb(36, 36, 46), salmon, black);
+  border: 4px solid purple;
+}
+
+nav a {
+  border: 4px solid rgba(199, 248, 20, 0.226);
+  padding: 2px 2px 2px 2px;
+  color: rgba(219, 72, 72, 0.647) !important;
+  text-shadow: 4px 1px 1px red;
+  box-shadow: 1px 1px 1px red;
+  text-decoration: none;
+  background-image: linear-gradient(linear-gradient(black, rgb(7, 8, 8), rgb(238, 225, 209)));
+}
+
+nav a:hover {
+  background-color: #777;
+  text-shadow: 1px 1px 1px yellow;
+}
+
+h2 {
+  text-align: end;
+  font-size: 45px;
+}
+
+header {
+  margin: 7px;
+  border-bottom: 3px solid rgb(226, 13, 125);
+  border-right: 8px solid black;
+  border-top: 5px solid rgb(193, 163, 130);
+  border-left: 7px solid rgba(219, 126, 126, 0.77);
+  background-color: rgba(90, 70, 100, 0.722);
+}
+
+main {
+  border: 2px solid limegreen;
+}
+
+p.cardDesc1 {
+  margin: 12px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
+}
+
+span {
+  border: 5px solid rgba(83, 241, 214, 0.826);
+  padding: plump;
+  background-color: rgb(75, 79, 219);
+}/*# sourceMappingURL=sass.css.map */
